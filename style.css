@@ -1,0 +1,88 @@
+/* Style for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the header */
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Style for the form */
+  form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the labels */
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  /* Style for the inputs */
+  input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style for the unordered list */
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  /* Style for the list items */
+  li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style for the user name */
+  li .name {
+    font-weight: bold;
+  }
+  
+  /* Style for the user email */
+  li .email {
+    font-style: italic;
+  }
+  
+  /* Style for the user phone number */
+  li .phno {
+    font-weight: bold;
+  }
+  
